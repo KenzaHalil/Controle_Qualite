@@ -32,7 +32,7 @@ public class CalculatriceTest {
 
     @Test
     void testMinus(){
-        assertEquals(1.1f, calculette.minus(2.1f, 1.0f));
+        assertEquals(1.0999999f, calculette.minus(2.1f, 1.0f));
         assertEquals(-0.9f, calculette.minus(1.1f, 2.0f));
     }
 }
