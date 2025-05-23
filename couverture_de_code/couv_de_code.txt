@@ -1,0 +1,17 @@
+Interprétation du test de couverture de code
+
+Interprétation :
+
+Nombre total d’instructions exécutables dans le code: 24
+
+mult est pas testée	aucun test n’exécute cette méthode
+Les autres sont toutes testées
+donc on peut dire que la couverture est plutot bien (meilleure quand on ajoute les tests pour multiplication)
+Que faire pour améliorer ce résultat ?
+
+Ajouter des tests pour multiplication
+
+
+Utiliser un outil comme JaCoCo pour visualiser les lignes non couvertes
+
+Vérifier la couverture des exceptions et conditions
